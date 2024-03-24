@@ -18,6 +18,14 @@
   font-family: "PlayFairDisplay-Regular", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fdfcfe;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -32,3 +40,5 @@ ul {
   margin: 0 auto;
   padding: 0 30px;
 }
+
+@import "./_navbar";
