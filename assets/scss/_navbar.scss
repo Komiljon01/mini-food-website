@@ -47,6 +47,7 @@
 
     .navbar__lists-mobile {
       display: none;
+      z-index: 1000;
     }
   }
 }
@@ -75,7 +76,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      background-color: #eee;
+      background-color: whitesmoke;
       gap: 20px;
       transform: translateX(100%);
       transition: transform 0.3s ease;
@@ -86,5 +87,11 @@
         right: 32px;
       }
     }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #navbar .wrapper .navbar__lists-mobile {
+    width: 70%;
   }
 }
