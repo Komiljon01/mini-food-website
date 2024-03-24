@@ -1,0 +1,34 @@
+// Fonts
+@font-face {
+  font-family: "PlayFairDisplay-Bold";
+  src: url("../fonts/playfairdisplay-variablefont_wght-webfont.woff");
+
+  font-family: "HanaleiFill";
+  src: url("../fonts/HanaleiFill-Regular.woff");
+
+  font-family: "PlayFairDisplay-Regular";
+  src: url("../fonts/playfairdisplay-variablefont_wght-webfont.woff2");
+}
+
+// Default styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PlayFairDisplay-Regular", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
